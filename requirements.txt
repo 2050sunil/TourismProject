@@ -32,3 +32,4 @@ zipp==3.21.0
 setuptools==68.0.0
 wheel==0.41.0
 sqlalchemy==2.0.0
+ruamel.yaml==0.17.21
