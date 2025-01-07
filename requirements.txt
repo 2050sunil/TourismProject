@@ -4,7 +4,6 @@ blinker==1.9.0
 certifi==2021.10.8
 charset-normalizer==2.0.7
 click==8.1.8
-conda==4.3.16
 distlib==0.3.2
 env==0.1.0
 filelock==3.0.12
