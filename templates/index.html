@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nepal Tourism</title>
+    <link rel="icon" href="static/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <header class="hero">
+        <h1>Explore Nepal</h1>
+        <p>Adventure, Culture, and Serenity Await</p>
+        <a href="#about" class="btn">Learn More</a>
+    </header>
+    <section id="about" class="about">
+        <h2>About Nepal</h2>
+        <p>Nepal is a land of stunning landscapes, ancient temples, and vibrant culture. Experience trekking in the Himalayas, explore unique traditions, and immerse yourself in the beauty of this incredible country.</p>
+    </section>
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service">
+            <h3>Guided Treks</h3>
+            <p>Join our experienced guides to explore the majestic Himalayas.</p>
+        </div>
+        <div class="service">
+            <h3>Cultural Tours</h3>
+            <p>Discover ancient temples and vibrant local traditions.</p>
+        </div>
+        <div class="service">
+            <h3>Eco-Tourism</h3>
+            <p>Experience sustainable travel in pristine natural settings.</p>
+        </div>
+    </section>
+    <section id="tourist-form" class="form-section">
+        <h2>Tourist Registration</h2>
+        <form action="http://127.0.0.1:8080/submit" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+            
+            <label for="country">Country:</label>
+            <input type="text" id="country" name="country" required>
+            
+            <label for="preferences">Travel Preferences:</label>
+            <textarea id="preferences" name="preferences" rows="4" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <footer class="footer">
+        <p>© 2025 Nepal Tourism. All rights reserved.</p>
+    </footer>
+</body>
+</html>
